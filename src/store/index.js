@@ -1,4 +1,4 @@
-import { createStore, combineReducers, applyMiddleware, compose, } from 'redux';
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import { combineEpics, createEpicMiddleware } from 'redux-observable';
 import skillsReducer from '../reducers/skills';
 import { changeSearchEpic, searchSkillsEpic } from '../epics';
